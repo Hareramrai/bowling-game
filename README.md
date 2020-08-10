@@ -27,15 +27,13 @@ Things you may want to cover:
 
 - Deployment instructions
 
-- ...
-
 - APIs
 
 ## API for starting a new game
 
 ** When passed invalid params for new game **
 
-`
+```
 curl --location --request POST 'http://localhost:5000/api/v1/games' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -46,7 +44,7 @@ curl --location --request POST 'http://localhost:5000/api/v1/games' \
 
 }'
 
-`
+```
 
 ** Response of above api **
 
@@ -54,7 +52,7 @@ curl --location --request POST 'http://localhost:5000/api/v1/games' \
 
 ** When passed valid params for new game **
 
-`
+```
 curl --location --request POST 'http://localhost:5000/api/v1/games' \
 --header 'Content-Type: application/json' \
 --data-raw '{
@@ -65,7 +63,7 @@ curl --location --request POST 'http://localhost:5000/api/v1/games' \
 
 }'
 
-`
+```
 
 ** Response of above api **
 
